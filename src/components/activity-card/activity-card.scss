@@ -1,0 +1,46 @@
+$main-text-color: black;
+$sub-text-color: #939393;
+
+.activity-card{
+    font-family: 'Times New Roman', Times, serif;
+    color: $main-text-color;
+    background-color: #ffffff4d;
+    height: 30%;
+    width: 30%;
+    border-radius: calc(10px + 2vmin);
+    flex: auto;
+    margin: 10px;
+}
+
+.display-area{
+    padding: calc(5px + 2vmin);
+}
+
+.card-title{
+    font-size: calc(10px + 2vmin);
+    text-align: left;
+}
+
+.active-date{
+    color: $sub-text-color;
+    text-align: left;
+}
+
+.active-image{
+    max-height: 90%;
+    max-width: 90%;
+}
+
+.active-value{
+    text-align: left;
+    font-size: calc(30px + 2vmin);
+}
+
+.active-value .value{
+    color: black;
+}
+
+.active-value .unit{
+    color: $sub-text-color;
+    font-size: calc(10px + 2vmin);
+}
