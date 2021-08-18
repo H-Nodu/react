@@ -27,7 +27,8 @@ $sub-text-color: #939393;
 }
 
 .active-image{
-    max-width: calc(50px + 2vmin);
+    height: calc(35px + 2vmin);
+    width: calc(75px + 2vmin);
 }
 
 .active-value{
