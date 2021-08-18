@@ -1,8 +1,13 @@
 .footer-menu{
+    height: 5vh;
     flex: auto;
-    padding: 5px;
+    padding: 2px;
 }
 
 .footer-icon {
-    min-height: 35px;
+    min-height: 30px;
+}
+
+.footer-name {
+    font-size: calc(5px + 2vmin);
 }

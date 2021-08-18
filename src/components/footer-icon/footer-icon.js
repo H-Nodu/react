@@ -6,7 +6,7 @@ class FooterIcon extends React.Component {
     return (
       <div class="footer-menu">
         <img class="footer-icon" src={this.props.ImageUri} alt="" />
-        <div>{this.props.Name}</div>
+        <div class="footer-name">{this.props.Name}</div>
       </div>
     );
   }

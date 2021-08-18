@@ -4,16 +4,16 @@ $sub-text-color: #939393;
 .activity-card{
     font-family: 'Times New Roman', Times, serif;
     color: $main-text-color;
-    background-color: #fff;
-    min-height: calc(100px + 2vmin);
-    width: 30%;
-    border-radius: calc(10px + 2vmin);
+    width: 50%;
     flex: auto;
-    margin: 10px;
 }
 
 .display-area{
-    padding: calc(5px + 2vmin);
+    height: calc(220px + 2vmin);
+    border-radius: calc(10px + 2vmin);
+    background-color: #fff;
+    margin: calc(10px + 2vmin);
+    padding: 15px;
 }
 
 .card-title{
@@ -27,8 +27,8 @@ $sub-text-color: #939393;
 }
 
 .active-image{
-    height: calc(35px + 2vmin);
-    width: calc(75px + 2vmin);
+    height: calc(100px + 2vmin);
+    width: calc(120px + 2vmin);
 }
 
 .active-value{
