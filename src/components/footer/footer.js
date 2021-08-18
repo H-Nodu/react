@@ -24,8 +24,10 @@ class Footer extends React.Component {
       })
 
       return (
-        <div class="footer">
-          {data}
+        <div class="footer-wrapper">
+          <div class="footer">
+            {data}
+          </div>
         </div>
       );
   }

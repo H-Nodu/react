@@ -8,7 +8,7 @@ class ActivityCard extends React.Component {
         <div class='display-area'>
             <div class="card-title">{this.props.CardTitle}</div>
             <div class="active-date">{this.props.ActiveDate}</div>
-            <img class="active-image" src={this.props.ImageUri} alt="placeholder" />
+            <img class="active-image" src={this.props.ImageUri} alt="" />
             <div class="active-value">
                 <span class="value">{this.props.ActivityValue}</span><span class="unit">{this.props.ActivityUnit}</span>
             </div>
