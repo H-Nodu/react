@@ -5,7 +5,7 @@ $sub-text-color: #939393;
     font-family: 'Times New Roman', Times, serif;
     color: $main-text-color;
     background-color: #ffffff4d;
-    height: 30%;
+    min-height: calc(100px + 2vmin);
     width: 30%;
     border-radius: calc(10px + 2vmin);
     flex: auto;
@@ -27,8 +27,7 @@ $sub-text-color: #939393;
 }
 
 .active-image{
-    max-height: 90%;
-    max-width: 90%;
+    max-width: calc(50px + 2vmin);
 }
 
 .active-value{

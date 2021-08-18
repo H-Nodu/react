@@ -6,6 +6,7 @@ import '../activity-card/activity-card.scss';
 // JS
 import ActivityCard from '../activity-card/activity-card.js';
 
+
 class Activities extends React.Component {
 
     // 初期化時
@@ -46,7 +47,7 @@ class Activities extends React.Component {
             { CardTitle:"活動履歴", ActiveDate:"8/9", ImageUri:"https://unsplash.it/g/630/400/", ActivityValue:"0.96", ActivityUnit:"km" },
             { CardTitle:"ハート", ActiveDate:"8/17", ImageUri:"https://unsplash.it/g/630/400/", ActivityValue:"66", ActivityUnit:"bpm" },
             { CardTitle:"体重管理", ActiveDate:"8/5", ImageUri:"https://unsplash.it/g/630/400/", ActivityValue:"72.8", ActivityUnit:"kg" },
-            { CardTitle:"睡眠", ActiveDate:"8/2", ImageUri:"https://unsplash.it/g/630/400/", ActivityValue:"38", ActivityUnit:"分" },
+            { CardTitle:"睡眠", ActiveDate:"8/2", ImageUri:`${process.env.PUBLIC_URL}/bed.svg`, ActivityValue:"38", ActivityUnit:"分" },
             { CardTitle:"血中酸素", ActiveDate:"8/18", ImageUri:"https://unsplash.it/g/630/400/", ActivityValue:"100", ActivityUnit:"%" },
             { CardTitle:"ストレス", ActiveDate:"8/18", ImageUri:"https://unsplash.it/g/630/400/", ActivityValue:"33", ActivityUnit:"普通" },
         ];
